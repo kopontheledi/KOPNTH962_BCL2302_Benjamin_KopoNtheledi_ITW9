@@ -24,36 +24,23 @@
             <a href="#skills">Professional Skills</a>
             <a href="#contactdetails">Contact Details</a>
         </nav>
-        <!--this is my first container of flexbox-->
-
-        <div class="flexbox-container1">
-
-            <div class="flexbox-item_1 flexbox-item1">
-                <!--My images-->
-                <picture>
-                    <source srcset="SRC\Image\mysmall.jpg" media="(max-width: 900px)">
-                    <source srcset="Image\mymedium.jpg" media="(max-width: 1350px)">
-                    <img src="SRC\Image\default.jpg" alt="mypicture" height="100%" width="80%">
+        
+                <picture class="image">
+                    <source srcset="SRC\Image\mysmall.jpg" media="(max-width: 600px)">
+                    <source srcset="Image\mymedium.jpg" media="(max-width: 1024px)">
+                    <img src="SRC\Image\default.jpg" alt="mypicture" height="30%" width="30%">
                 </picture>
-            </div>
-
-            <div class="flexbox-item_1 flexbox-item2">
-                <h1>Kopo Ntheledi</h1>
-            </div>
-
-            <div class="flexbox-item_1 flexbox-item3">
-                <p>Software Developer Student</p>
-            </div>
-
-        </div>
+           
+             <h1 class="name">Kopo Ntheledi</h1>
+           
+                <p class="career">Software Developer </p>
 
     </header>
 
-
+<div class="introduction">
     <!--My introduction statement-->
-    <div class="introduction">
         <h3><strong>Career Objective</strong></h3>
-        <p id="about">
+        <p id="about" class="myself">
             As a software developer student, I have acquired a deep understanding of programming languages, software
             development methodologies, and computer science fundamentals. With my passion for problem-solving and my
             technical expertise, I am constantly exploring new technologies and seeking opportunities to build
@@ -72,13 +59,15 @@
 
 
             <div class="grid-item grid-item1">
-                <h2 id="school" id="education" class="mainheadings">High School</h2>
+                <h2  id="education">High School</h2>
                 <h3>Matric</h3>
                 <div class="images"><img src="SRC\Image\schoolimage.png" alt="school" width="20px" height="20px">
-                    <p>Hoër Tegnise Skool Rustenburg</p>
+                    Hoër Tegnise Skool Rustenburg
+                </img>
                 </div>
+                <br>
                 <div class="images"> <img src="SRC\Image\calender.png" alt="calender" width="20px" height="20px">
-                    <p>January 2015- December 2019</p>
+                    January 2015- December 2019</img>
                 </div>
             </div>
 
@@ -87,10 +76,11 @@
                 <h2 id="college" id="education" class="mainheadings">College</h2>
                 <h3>Electrical Engineering</h3>
                 <div class="images"><img src="SRC\Image\schoolimage.png" alt="school" width="20px" height="20px">
-                    <p>Orbit Tvet College</p>
+                    Orbit Tvet College</img>
                 </div>
+                <br>
                 <div class="images"><img src="SRC\Image\calender.png" alt="calender" width="20px" height="20px">
-                    <p>January 2021- March 2022</p>
+                    January 2021- March 2022</img>
                 </div>
 
             </div>
@@ -100,10 +90,11 @@
                 <h2 id="experience" class="mainheadings"><strong>Experience</strong></h2>
                 <h3>Sales Consultant</h3>
                 <div class="images"><img src="SRC\Image\work.png" alt="work" height="20px" width="20px">
-                    <P>Identity @Truworths</P>
+                    Identity @Truworths</img>
                 </div>
+                <br>
                 <div class="images"> <img src="SRC\Image\calender.png" alt="calender" height="20px" width="20px">
-                    <p>April 2021- November 2022</p>
+                    April 2021- November 2022</img>
                 </div>
             </div>
 
@@ -144,11 +135,11 @@
                 <h2 id="contactdetails" class="mainheadings">Contact Details</h2>
 
                 <div class="images"><img src="SRC\Image\cellphone.jpg" alt="cellphone" height="30px" width="40px">
-                    <p>0786173860</p>
+                    0786173860</img>
                 </div>
                 <br>
                 <div class="images"><img src="SRC\Image\email.png" alt="email" height="30px" width="40px">
-                    <p>kopontheledi@gmail.com</p>
+                    kopontheledi@gmail.com</img>
                 </div>
                 <br>
                 <div class="images"><img src="SRC\Image\linkedin.png" alt="linkedin" height="30px" width="40px">
@@ -201,7 +192,7 @@
                     <div>
 
                         <label for="first name">First Name</label>
-                        <input type="text" id="first name" name="first name" placeholder="name" required>
+                        <input type="text" id="first name" name="first name" required>
 
                     </div>
 
@@ -210,7 +201,7 @@
                     <div>
 
                         <label for="last name">Last Name</label>
-                        <input type="text" id="last name" name="last name" placeholder="surname" required>
+                        <input type="text" id="last name" name="last name" required>
 
                     </div>
 
@@ -219,14 +210,14 @@
                     <!--email of the person viewing my resume-->
                     <div>
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="OWaffels@gmail.com" required>
+                        <input type="email" id="email" name="email" required>
                     </div>
                     <br>
 
                     <!--this gives the person viewing the resume options to select from-->
                     <div>
-                        <textarea type="message" for="message" name="message" placeholder="add comment"
-                            required></textarea>
+                        <label for="comment">Comment </label>
+                        <textarea type="comment" id="comment" name="comment" required></textarea>
                     </div>
 
                     <br>
