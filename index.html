@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Resume</title>
+    <link rel="stylesheet" href="SRC/CSS/stylesheet.css">
+
+</head>
+
+<body>
+
+    <header id="heading">
+
+
+        <!--links to my content-->
+
+        <nav class="navbar">
+            <a href="#about">Introduction</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Professional Skills</a>
+            <a href="#contactdetails">Contact Details</a>
+        </nav>
+        <!--this is my first container of flexbox-->
+
+        <div class="flexbox-container1">
+
+            <div class="flexbox-item_1 flexbox-item1">
+                <!--My images-->
+                <picture>
+                    <source srcset="SRC\Image\mysmall.jpg" media="(max-width: 900px)">
+                    <source srcset="Image\mymedium.jpg" media="(max-width: 1350px)">
+                    <img src="SRC\Image\default.jpg" alt="mypicture" height="100%" width="80%">
+                </picture>
+            </div>
+
+            <div class="flexbox-item_1 flexbox-item2">
+                <h1>Kopo Ntheledi</h1>
+            </div>
+
+            <div class="flexbox-item_1 flexbox-item3">
+                <p>Software Developer Student</p>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!--My introduction statement-->
+    <div class="introduction">
+        <h3><strong>Career Objective</strong></h3>
+        <p id="about">
+            As a software developer student, I have acquired a deep understanding of programming languages, software
+            development methodologies, and computer science fundamentals. With my passion for problem-solving and my
+            technical expertise, I am constantly exploring new technologies and seeking opportunities to build
+            innovative solutions. I am committed to delivering high-quality code and collaborating effectively with
+            cross-functional teams to create software that meets the needs of users and exceeds their expectations.
+        </p>
+    </div>
+
+    <br>
+    <!--This is where my content starts-->
+
+    <section>
+
+        <!--my education-->
+        <div class="grid-container">
+
+
+            <div class="grid-item grid-item1">
+                <h2 id="school" id="education" class="mainheadings">High School</h2>
+                <h3>Matric</h3>
+                <div class="images"><img src="SRC\Image\schoolimage.png" alt="school" width="20px" height="20px">
+                    <p>Hoër Tegnise Skool Rustenburg</p>
+                </div>
+                <div class="images"> <img src="SRC\Image\calender.png" alt="calender" width="20px" height="20px">
+                    <p>January 2015- December 2019</p>
+                </div>
+            </div>
+
+
+            <div class="grid-item grid-item2">
+                <h2 id="college" id="education" class="mainheadings">College</h2>
+                <h3>Electrical Engineering</h3>
+                <div class="images"><img src="SRC\Image\schoolimage.png" alt="school" width="20px" height="20px">
+                    <p>Orbit Tvet College</p>
+                </div>
+                <div class="images"><img src="SRC\Image\calender.png" alt="calender" width="20px" height="20px">
+                    <p>January 2021- March 2022</p>
+                </div>
+
+            </div>
+
+            <!--my experience-->
+            <div class="grid-item grid-item3">
+                <h2 id="experience" class="mainheadings"><strong>Experience</strong></h2>
+                <h3>Sales Consultant</h3>
+                <div class="images"><img src="SRC\Image\work.png" alt="work" height="20px" width="20px">
+                    <P>Identity @Truworths</P>
+                </div>
+                <div class="images"> <img src="SRC\Image\calender.png" alt="calender" height="20px" width="20px">
+                    <p>April 2021- November 2022</p>
+                </div>
+            </div>
+
+            <!--My skills-->
+
+            <div class="grid-item grid-item4">
+                <h2 id="skills" class="mainheadings"><strong>Professional Skills</strong></h2>
+                <p>
+                <ol>
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>Teamwork</li>
+                    <li>Wireframing</li>
+                    <li>Adaptability</li>
+                    <li>I am self motivated</li>
+                    <li>Good communication skills</li>
+                    <li>I am thorough and I pay attention to detail.</li>
+                    <li>I extra mile to get the job done, while learning in the process.</li>
+
+                </ol>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="grid-container2">
+            <br>
+            <!--the button takes the viewer back to the top of the resume-->
+            <button id="button">
+                <h3><a href="#heading" id="back-a">back to top</a></h3>
+            </button>
+
+            <div class="contacts">
+                <!--my contact details-->
+                <h2 id="contactdetails" class="mainheadings">Contact Details</h2>
+
+                <div class="images"><img src="SRC\Image\cellphone.jpg" alt="cellphone" height="30px" width="40px">
+                    <p>0786173860</p>
+                </div>
+                <br>
+                <div class="images"><img src="SRC\Image\email.png" alt="email" height="30px" width="40px">
+                    <p>kopontheledi@gmail.com</p>
+                </div>
+                <br>
+                <div class="images"><img src="SRC\Image\linkedin.png" alt="linkedin" height="30px" width="40px">
+                    <a href="https://www.linkedin.com/in/kopo-ntheledi-30327021b">LinkedIn</a>
+                </div>
+                <br>
+                <div class="images"><img src="SRC\Image\GitHub-logo.png" alt="github" height="40px" width="50px">
+                    <a href="https://github.com/kopontheledi">GitHub</a>
+                </div>
+
+            </div>
+
+            <br>
+
+            <div class="form">
+                <!--this is where my form begins-->
+
+                <h2 class="form"><strong>Please complete and submit the form below.</strong></h2>
+                <form action="https://formsubmit.co/kopontheledi@gmail.com" method="POST">
+
+                    <br>
+
+                    <div>
+
+                        <select name="subject" id="subject">
+                            <option value="interview">Interview Opputunity</option>
+                            <option value="recruiter">Recruiter</option>
+                            <option value="website feedback">Website feedback</option>
+
+                        </select>
+
+                    </div>
+
+                    <br>
+
+                    <div>
+
+                        <label for="title">Title:</label>
+                        <!--radio buttons-->
+                        <label for="Mr.">Mr.</label>
+                        <input type="radio" name="title" value="Mr." id="Mr.">
+
+                        <label for="Ms.">Ms.</label>
+                        <input type="radio" name="title" value="Ms." id="Ms.">
+
+                    </div>
+
+                    <br>
+                    <!--name and surname of the person viewing my resume-->
+                    <div>
+
+                        <label for="first name">First Name</label>
+                        <input type="text" id="first name" name="first name" placeholder="name" required>
+
+                    </div>
+
+                    <br>
+
+                    <div>
+
+                        <label for="last name">Last Name</label>
+                        <input type="text" id="last name" name="last name" placeholder="surname" required>
+
+                    </div>
+
+                    <br>
+
+                    <!--email of the person viewing my resume-->
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="OWaffels@gmail.com" required>
+                    </div>
+                    <br>
+
+                    <!--this gives the person viewing the resume options to select from-->
+                    <div>
+                        <textarea type="message" for="message" name="message" placeholder="add comment"
+                            required></textarea>
+                    </div>
+
+                    <br>
+
+                    <!--this is to help the person viewing my resume reset or submit their input-->
+                    <div>
+                        <input type="reset">
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <input type="submit">
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

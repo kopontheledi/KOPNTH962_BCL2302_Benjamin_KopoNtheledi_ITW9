@@ -1,0 +1,597 @@
+body {
+    background-color: #CAD2C5;
+}
+
+/* to change the color of my links */
+a {
+    color: #354F52;
+}
+
+
+/*this is for my links to highlight whenever a mouse is touching it*/
+a:hover {
+    color: blueviolet;
+}
+
+/* for my menu */
+.navbar {
+    color: black;
+    background-color: #A3A380;
+    border-radius: 50px;
+
+}
+
+/*for spaces in between my menu*/
+nav a {
+    padding-left: 10%;
+    font-size: x-large;
+}
+
+/*to add background to my header*/
+#heading {
+    background-image: url(/SRC/Image/myhero.jfif);
+    height: auto;
+}
+
+
+/*this is my flexbox code*/
+.flexbox-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flexbox-item_1 {
+    width: 200px;
+}
+
+/*image*/
+.flexbox-item1 {
+    position: relative;
+    right: 10%;
+    width: 20%;
+    margin-top: 1%;
+}
+
+/*my name*/
+.flexbox-item2 {
+    font-style: italic;
+    background-color: #CAD2C5;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 1%;
+    border-radius: 30px;
+}
+
+
+/*software developer student*/
+.flexbox-item3 {
+    font-style: italic;
+    font-size: x-large;
+    background-color: #84A98C;
+    height: fit-content;
+    border-radius: 30px;
+    position: relative;
+    left:10px;
+
+}
+
+/*for my introduction id, which is the part I tell the person viewing my resume about myself*/
+#about {
+    font-size: large;
+    color: black;
+    padding-top: 5px;
+}
+
+/*this is to change my whole introductory font-family including the heading*/
+.introduction {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding-left: 5px;
+    background-color: #52796F;
+}
+
+/*this is my grid code*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    grid-gap: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*matric*/
+.grid-item1 {
+    border-style: double;
+    padding-left: 4%;
+    background-color: #52796F;
+}
+
+/*college*/
+.grid-item2 {
+    border-style: double;
+    padding-left: 4%;
+    background-color: #52796F;
+
+}
+
+/*experience*/
+.grid-item3 {
+    border-style: double;
+    padding-left: 4%;
+    background-color: #52796F;
+}
+
+/*skills*/
+.grid-item4 {
+    border-style: double;
+    padding-left: 4%;
+    grid-template-rows: 450px;
+    background-color: #52796F;
+}
+
+/*to highlight my topics and give them a circular edge shape*/
+h2 {
+    background-color: #A3A380;
+    border-radius: 50px;
+    height: fit-content;
+    width: fit-content;
+}
+
+/*to put my images next to their designated texts*/
+.images {
+    display: flex;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-row-gap: 5px;
+
+}
+
+.contacts {
+    border-style: double;
+    font-size: larger;
+    padding-left: 2%;
+    background-color: #84A98C;
+}
+
+.form {
+    border-style: double;
+    padding-left: 1%;
+}
+
+
+
+/*media queries*/
+
+/*code for small devices*/
+@media only screen and (max-width:426px) {
+
+    #heading {
+        height: 132px;
+        border: 2px solid white;
+    }
+
+    /* for my menu */
+    .navbar {
+        color: black;
+        font-size: small;
+        margin-top: 3%;
+
+    }
+
+    /*font on menu bar*/
+    nav a {
+        font-size: small;
+    }
+
+    /*my image*/
+    .flexbox-item1 {
+        position: relative;
+        right: 0%;
+        margin-top: 5%;
+        position: relative;
+        right: 6%;
+        width: 50%;
+
+    }
+
+    /*my name*/
+    .flexbox-item2 {
+        font-style: italic;
+        font-size: 8px;
+        background-color: #CAD2C5;
+        width: fit-content;
+        height: fit-content;
+        border-radius: 30px;
+        right: 25px;
+
+    }
+
+
+    /*software developer student*/
+    .flexbox-item3 {
+        font-style: italic;
+        font-size: 10px;
+        width: fit-content;
+        background-color: #84A98C;
+        height: fit-content;
+        border-radius: 30px;
+        position: relative;
+        left: 98px;
+        top: -50px;
+
+
+    }
+
+    /*for my introduction id, which is the part I tell the person viewing my resume about myself*/
+    #about {
+        font-size: small;
+        color: black;
+        padding-top: 5px;
+    }
+
+    /*this is to change my whole introductory font-family including the heading*/
+    .introduction {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 2px solid black;
+        margin-top: 10px;
+        padding-left: 5px;
+        background-color: #52796F;
+    }
+
+
+    /*to highlight my topics and give them a circular edge shape*/
+    h2 {
+        background-color: #A3A380;
+        border-radius: 50px;
+        height: fit-content;
+        width: fit-content;
+        font-size: small;
+    }
+
+    /*to decrease the size of my h2*/
+    .mainheadings {
+        font-size: 20px !important;
+        width: fit-content;
+    }
+
+
+    /*this is my grid code*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 480px 480px;
+        grid-gap: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    /*matric*/
+    .grid-item1 {
+        border-style: double;
+        padding-left: 4%;
+        background-color: #52796F;
+
+    }
+
+    /*college*/
+    .grid-item2 {
+        border-style: double;
+        padding-left: 4%;
+        background-color: #52796F;
+
+    }
+
+    /*experience*/
+    .grid-item3 {
+        border-style: double;
+        padding-left: 4%;
+        background-color: #52796F;
+    }
+
+    /*skills*/
+    .grid-item4 {
+        border-style: double;
+        padding-left: 2px;
+        grid-template-rows: 450px;
+        background-color: #52796F;
+    }
+
+
+    .contacts {
+        border-style: double;
+        font-size: larger;
+        padding-left: 2%;
+        background-color: #84A98C;
+        font-size: small;
+    }
+
+    .form {
+        border-style: double;
+        padding-left: 1%;
+        font-size: x-small;
+    }
+}
+
+/*code for tablet devices*/
+@media only screen and (min-width:427px) and (max-width:1024px) {
+
+    #heading {
+        height: 200px;
+        border: 2px solid white;
+    }
+
+    /* for my menu */
+    .navbar {
+        color: black;
+        font-size: medium;
+        margin-top: 5px;
+
+    }
+
+    /*my image*/
+    .flexbox-item1 {
+        position: relative;
+        right: 7.80%;
+        margin-top: 12.80px;
+        width: 50%;
+
+    }
+
+    /*my name*/
+    .flexbox-item2 {
+        font-style: italic;
+        background-color: #CAD2C5;
+        width: fit-content;
+        height: fit-content;
+        border-radius: 30px;
+        font-size: medium;
+
+    }
+
+
+    /*software developer student*/
+    .flexbox-item3 {
+        font-style: italic;
+        font-size: large;
+        width: fit-content;
+        background-color: #84A98C;
+        height: fit-content;
+        position: relative;
+        top: -60px;
+        left: 25%;
+        border-radius: 30px;
+
+    }
+
+
+    /*for my introduction id, which is the part I tell the person viewing my resume about myself*/
+    #about {
+        font-size: medium;
+        color: black;
+        padding-top: 5px;
+    }
+
+    /*this is to change my whole introductory font-family including the heading*/
+    .introduction {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 2px solid black;
+        margin-top: 10px;
+        padding-left: 5px;
+        background-color: #52796F;
+    }
+
+
+    /*to highlight my topics and give them a circular edge shape*/
+    h2 {
+        background-color: #A3A380;
+        border-radius: 50px;
+        height: fit-content;
+        width: fit-content;
+
+    }
+
+    /*to increase the size of my h2*/
+    .mainheadings {
+        font-size: 40px !important;
+    }
+
+
+    /*this is my grid code*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 320px 320px;
+        grid-gap: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    /*matric*/
+    .grid-item1 {
+        border-style: double;
+        padding-left: 4%;
+        background-color: #52796F;
+
+    }
+
+    /*college*/
+    .grid-item2 {
+        border-style: double;
+        padding-left: 4%;
+        background-color: #52796F;
+
+    }
+
+    /*experience*/
+    .grid-item3 {
+        border-style: double;
+        padding-left: 4%;
+        background-color: #52796F;
+    }
+
+    /*skills*/
+    .grid-item4 {
+        border-style: double;
+        padding-left: 2px;
+        grid-template-rows: 450px;
+        background-color: #52796F;
+    }
+
+
+    .contacts {
+        border-style: double;
+        font-size: medium;
+        padding-left: 2%;
+        background-color: #84A98C;
+        padding-bottom: 2px;
+
+    }
+
+    .form {
+        border-style: double;
+        padding-left: 1%;
+        font-size: medium;
+    }
+}
+
+/* CSS styles for laptops */
+@media only screen and (min-width: 1024px) {
+
+    #heading {
+        height: 300px;
+        border: 2px solid white;
+    }
+
+    /* for my menu */
+    .navbar {
+        color: black;
+        margin-top: 10px;
+    }
+
+    /*for spaces in between my menu*/
+    nav a {
+        padding-left: 1.50%;
+        font-size: xx-large;
+
+    }
+
+
+    /*my name*/
+    .flexbox-item2 {
+        font-style: italic;
+        background-color: #CAD2C5;
+        width: fit-content;
+        height: fit-content;
+        border-radius: 30px;
+        font-size: x-large;
+        margin-top: 2%;
+
+    }
+
+
+    /*software developer student*/
+    .flexbox-item3 {
+        font-style: italic;
+        font-size: x-large;
+        width: fit-content;
+        background-color: #84A98C;
+        height: fit-content;
+        position: relative;
+        top: -20px;
+        left: 25%;
+        border-radius: 30px;
+
+    }
+
+
+    /*for my introduction id, which is the part I tell the person viewing my resume about myself*/
+    #about {
+        font-size: medium;
+        color: black;
+        padding-top: 5px;
+    }
+
+    /*this is to change my whole introductory font-family including the heading*/
+    .introduction {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 2px solid black;
+        margin-top: 10px;
+        padding-left: 5px;
+        background-color: #52796F;
+    }
+
+
+    /*to highlight my topics and give them a circular edge shape*/
+    h2 {
+        background-color: #A3A380;
+        border-radius: 50px;
+        height: fit-content;
+        width: fit-content;
+
+    }
+
+    /*to increase the size of my h2*/
+    .mainheadings {
+        font-size: 40px !important;
+    }
+
+
+    /*this is my grid code*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 320px 320px;
+        grid-gap: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    /*matric*/
+    .grid-item1 {
+        border-style: double;
+        padding-left: 4%;
+        background-color: #52796F;
+
+    }
+
+    /*college*/
+    .grid-item2 {
+        border-style: double;
+        padding-left: 4%;
+        background-color: #52796F;
+
+    }
+
+    /*experience*/
+    .grid-item3 {
+        border-style: double;
+        padding-left: 4%;
+        background-color: #52796F;
+    }
+
+    /*skills*/
+    .grid-item4 {
+        border-style: double;
+        padding-left: 2px;
+        grid-template-rows: 450px;
+        background-color: #52796F;
+    }
+
+
+    .contacts {
+        border-style: double;
+        font-size: medium;
+        padding-left: 2%;
+        background-color: #84A98C;
+        padding-bottom: 2px;
+
+    }
+
+    .form {
+        border-style: double;
+        padding-left: 1%;
+        font-size: medium;
+    }
+}
