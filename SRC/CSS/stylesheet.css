@@ -196,7 +196,7 @@ h2 {
         border-radius: 30px;
         font-size: 22px;
         position: relative;
-        left: 290px;
+        left: 240px;
         bottom: 23px;
     }
     /*about me*/
@@ -210,7 +210,7 @@ h2 {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 300px 300px;
+        grid-template-rows: 350px 350px;
         grid-gap: 20px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
@@ -249,10 +249,10 @@ h2 {
 
 
 /*for tablet*/
-@media only screen and (min-width:600px) and (max-width:1024px) {
+@media only screen and (min-width:601px) and (max-width:1024px) {
      /*heading*/
      .navbar a {
-        padding-left: 4%;
+        padding-left: 3%;
         font-size:medium;
     }
     
@@ -283,7 +283,7 @@ h2 {
         border-radius: 30px;
         font-size: 32px;
         position: relative;
-        left: 295px;
+        left: 401px;
         bottom: 33px;
     }
     /*about me*/
@@ -338,8 +338,8 @@ h2 {
 @media only screen and (min-width:1024px) {
      /*heading*/
      .navbar a {
-        padding-left: 4%;
-        font-size:large;
+        padding-left: 7%;
+        font-size:x-large;
     }
     
     .images {
@@ -369,14 +369,14 @@ h2 {
         border-radius: 30px;
         font-size: 43px;
         position: relative;
-        left: 500px;
+        left: 740px;
         bottom: 45px;
     }
     /*about me*/
     .myself {
         color: black;
         padding-top: 5px;
-        font-size:larger;
+        font-size:x-large;
     }
     /*grid*/
     
